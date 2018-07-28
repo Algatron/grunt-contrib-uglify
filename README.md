@@ -1,4 +1,4 @@
-# grunt-contrib-uglify v3.4.0 [![Build Status: Linux](https://travis-ci.org/gruntjs/grunt-contrib-uglify.svg?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-uglify) [![Build Status: Windows](https://ci.appveyor.com/api/projects/status/ybtf5vbvtenii561/branch/master?svg=true)](https://ci.appveyor.com/project/gruntjs/grunt-contrib-uglify/branch/master)
+# grunt-contrib-uglify v4.0.0 [![Build Status: Linux](https://travis-ci.org/gruntjs/grunt-contrib-uglify.svg?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-uglify) [![Build Status: Windows](https://ci.appveyor.com/api/projects/status/ybtf5vbvtenii561/branch/master?svg=true)](https://ci.appveyor.com/project/gruntjs/grunt-contrib-uglify/branch/master)
 
 > Minify JavaScript files with UglifyJS
 
@@ -24,7 +24,7 @@ grunt.loadNpmTasks('grunt-contrib-uglify');
 ## Uglify task
 _Run this task with the `grunt uglify` command._
 
-Task targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.
+Task targets, files and options may be specified according to the grunt [Configuring tasks](https://gruntjs.com/configuring-tasks) guide.
 
 ### Options
 
@@ -525,6 +525,7 @@ grunt.initConfig({
 
 ## Release History
 
+ * 2018-07-29   v4.0.0   Update dependencies. Requires Node.js >= 6.
  * 2018-07-29   v3.4.0   Update uglify-js to v3.4.0.
  * 2017-12-24   v3.3.0   Update uglify-js to v3.3.0.
  * 2017-11-26   v3.2.1   Update uglify-js to v3.2.0.
@@ -574,4 +575,4 @@ grunt.initConfig({
 
 Task submitted by ["Cowboy" Ben Alman](http://benalman.com)
 
-*This file was generated on Sun Jul 29 2018 01:52:18.*
+*This file was generated on Sat Jul 28 2018 21:56:25.*
